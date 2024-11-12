@@ -16,7 +16,7 @@ export const Game = (props) => {
 
     useEffect(() => {
         tetris.onStateChange(onStateChange);
-        document.title ="React Tetris";
+        document.title ="Nguti React Tetris";
     }, [tetris]);
 
 
